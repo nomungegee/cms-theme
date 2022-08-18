@@ -1,6 +1,6 @@
 {
-    "name": "headline",
-    "description": "A Ghost theme",
+    "name": "headline-nomungegee",
+    "description": "A Ghost theme Headline customized for Nomungegee",
     "version": "1.0.0",
     "private": true,
     "engines": {
