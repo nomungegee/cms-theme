@@ -43,8 +43,6 @@
         </article>
     {{/post}}
 
-    {{> "related-posts"}}
-
     {{#post}}
     {{#if comments}}
         <div class="gh-comments gh-read-next gh-canvas">
@@ -53,6 +51,10 @@
             </section>
             {{comments title="" count=false}}
         </div>
+    {{else}}
+        <div class="fb-comments" data-href="{{url absolute="true"}}" data-numposts="10"></div>
     {{/if}}
     {{/post}}
+
+    {{> "related-posts"}}
 </main>
